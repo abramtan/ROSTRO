@@ -66,12 +66,14 @@ Reboot the system and all is working.
 I hope this was helpful to someone.
 
 ## ROS Noetic
-http://wiki.ros.org/noetic/Installation/Ubuntu
+1. http://wiki.ros.org/noetic/Installation/Ubuntu
+2. http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment
 
 ## RPLidar
-1. Clone
-https://github.com/robopeak/rplidar_ros
-2. Run catkin_make
+1. ``` cd catkin_ws/src ```
+2. ``` git clone https://github.com/robopeak/rplidar_ros ```
+3. ``` cd .. ```
+4. ``` source devel/setup.bash && catkin_make ```
 
 ## OpenCV OAK-D
 
