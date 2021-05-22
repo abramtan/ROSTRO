@@ -75,6 +75,9 @@ I hope this was helpful to someone.
 3. ``` cd .. ```
 4. ``` source devel/setup.bash && catkin_make ```
 
+Tests
+1. ``` roslaunch rplidar_ros view_rplidar.launch ```
+
 ## OpenCV OAK-D
 
 ## Teensy 4.0
