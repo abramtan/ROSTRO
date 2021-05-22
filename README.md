@@ -78,6 +78,9 @@ I hope this was helpful to someone.
 Tests
 1. ``` roslaunch rplidar_ros view_rplidar.launch ```
 
+## MicroSD Card Imaging
+https://thepihut.com/blogs/raspberry-pi-tutorials/17789160-backing-up-and-restoring-your-raspberry-pis-sd-card
+
 ## OpenCV OAK-D
 
 ## Teensy 4.0
