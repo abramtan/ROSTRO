@@ -15,6 +15,10 @@ Running the ROS stack on Ubuntu Core will be attempted in the future.
 8. sudo apt install ubuntu-desktop
 9. sudo systemctl reboot
 
+## RealVNC
+1. https://github.com/raspberrypi/firmware/tree/master/opt/vc/lib
+2. https://www.raspberrypi.org/forums/viewtopic.php?t=288769
+
 ## ROS Noetic
 http://wiki.ros.org/noetic/Installation/Ubuntu
 
