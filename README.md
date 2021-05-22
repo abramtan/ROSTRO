@@ -20,6 +20,51 @@ Running the ROS stack on Ubuntu Core will be attempted in the future.
 2. https://www.raspberrypi.org/forums/viewtopic.php?t=288769
 3. https://www.realvnc.com/en/connect/download/vnc/raspberrypi/
 
+$sudo dpkg --add-architecture armhf
+
+$sudo dpkg --print-foreign-architectures
+
+$sudo apt update
+
+$sudo apt install libx11-6
+
+Download the next 10 files from https://github.com/raspberrypi/firmware ... opt/vc/lib
+
+libbcm_host.so
+libvcos.so
+libmmal.so
+libmmal_core.so
+libmmal_components.so
+libmmal_util.so
+libmmal_vc_client.so
+libchiq_arm.so
+libvcsm.so
+libcontainers.so
+
+These 10 files above need to be copied to /usr/lib.
+
+$sudo apt install gdebi
+
+$sudo gdebi VNC-Server-6.7.2-Linux-ARM.deb
+
+$sudo systemctl enable vncserver-x11-serviced.service
+
+$sudo systemctl enable vncserver-virtuald.service
+
+$sudo systemctl start vncserver-x11-serviced.service
+
+$sudo systemctl start vncserver-virtuald.service
+
+$sudo vnclicensewiz
+
+$sudo gedit /etc/gdm3/custom.conf
+
+Uncomment “WaylandEnable=false”
+
+Reboot the system and all is working.
+
+I hope this was helpful to someone.
+
 ## ROS Noetic
 http://wiki.ros.org/noetic/Installation/Ubuntu
 
