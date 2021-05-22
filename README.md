@@ -18,6 +18,7 @@ Running the ROS stack on Ubuntu Core will be attempted in the future.
 ## RealVNC
 1. https://github.com/raspberrypi/firmware/tree/master/opt/vc/lib
 2. https://www.raspberrypi.org/forums/viewtopic.php?t=288769
+3. https://www.realvnc.com/en/connect/download/vnc/raspberrypi/
 
 ## ROS Noetic
 http://wiki.ros.org/noetic/Installation/Ubuntu
