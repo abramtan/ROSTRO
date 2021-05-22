@@ -16,8 +16,12 @@ Running the ROS stack on Ubuntu Core will be attempted in the future.
 9. sudo systemctl reboot
 
 ## ROS Noetic
+http://wiki.ros.org/noetic/Installation/Ubuntu
 
 ## RPLidar
+1. Clone
+https://github.com/robopeak/rplidar_ros
+2. Run catkin_make
 
 ## OpenCV OAK-D
 
