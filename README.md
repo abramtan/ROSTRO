@@ -82,5 +82,6 @@ Tests
 https://thepihut.com/blogs/raspberry-pi-tutorials/17789160-backing-up-and-restoring-your-raspberry-pis-sd-card
 
 ## OpenCV OAK-D
+https://github.com/luxonis/depthai-ros
 
 ## Teensy 4.0
