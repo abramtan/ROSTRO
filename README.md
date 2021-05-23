@@ -83,5 +83,8 @@ https://thepihut.com/blogs/raspberry-pi-tutorials/17789160-backing-up-and-restor
 
 ## OpenCV OAK-D
 https://github.com/luxonis/depthai-ros
+```sudo wget -qO- http://docs.luxonis.com/_static/install_dependencies.sh | bash```
+```python3 -m pip install opencv-python```
+```sudo wget -qO- https://raw.githubusercontent.com/luxonis/depthai-ros/noetic-devel/install_dependencis.sh | bash```
 
 ## Teensy 4.0
